@@ -1,0 +1,91 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/register/register",
+    "pages/forget/forget",
+    "pages/center/center",
+    "pages/user-info/user-info",
+    "pages/news-detail/news-detail",
+    "pages/yonghu/list",
+    "pages/yonghu/add-or-update",
+    "pages/yonghu/detail",
+    "pages/qichexinxi/list",
+    "pages/qichexinxi/add-or-update",
+    "pages/qichexinxi/detail",
+    "pages/qicheruku/list",
+    "pages/qicheruku/add-or-update",
+    "pages/qicheruku/detail",
+    "pages/qichechuku/list",
+    "pages/qichechuku/add-or-update",
+    "pages/qichechuku/detail",
+    "pages/qichezulin/list",
+    "pages/qichezulin/add-or-update",
+    "pages/qichezulin/detail",
+    "pages/qicheguihai/list",
+    "pages/qicheguihai/add-or-update",
+    "pages/qicheguihai/detail",
+    "pages/qichepinche/list",
+    "pages/qichepinche/add-or-update",
+    "pages/qichepinche/detail",
+    "pages/pinchexinxi/list",
+    "pages/pinchexinxi/add-or-update",
+    "pages/pinchexinxi/detail",
+    "pages/storeup/list",
+    "pages/storeup/add-or-update",
+    "pages/storeup/detail",
+    "pages/news/list",
+    "pages/news/add-or-update",
+    "pages/news/detail",
+    "pages/messages/list",
+    "pages/messages/liuyan",
+    "pages/discussqichexinxi/list",
+    "pages/discussqichexinxi/add-or-update",
+    "pages/discussqichexinxi/detail",
+    "pages/pay-confirm/pay-confirm",
+    "pages/index/index"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "微信小程序小区租拼车管理信息系统",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#D79468",
+    "borderStyle": "white",
+    "backgroundColor": "#FFFFFF",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/tabs/index.png",
+        "selectedIconPath": "static/tabs/index1.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/qichexinxi/list",
+        "iconPath": "/static/tabs/icon1.png",
+        "selectedIconPath": "/static/tabs/icon1_act.png",
+        "text": "汽车信息"
+      },
+      {
+        "pagePath": "pages/qichepinche/list",
+        "iconPath": "/static/tabs/icon2.png",
+        "selectedIconPath": "/static/tabs/icon2_act.png",
+        "text": "汽车拼车"
+      },
+      {
+        "pagePath": "pages/center/center",
+        "iconPath": "static/tabs/mine.png",
+        "selectedIconPath": "static/tabs/mine1.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {
+    "uni-load-more": "/components/mescroll-uni/mescroll-uni",
+    "mescroll-uni": "/components/mescroll-uni/mescroll-uni",
+    "uni-popup": "/components/uni-popup/uni-popup"
+  }
+}
